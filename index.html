@@ -1,71 +1,160 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en" >
 <head>
-<link type="text/css" rel="stylesheet" href="homestylepoints.css"/>
+  <meta charset="utf-8" />
+  <meta name="author" content="Michelle and Kathy" />
+  <title>Sol Music</title>
+
+  <!--Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Wellfleet' 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+  <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+  <!-- attach CSS styles -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 </head>
-
 <body>
-<header>
-<nav>
-	<ul class="Navigation">
-		<li><a href="#Title">Home</a> </div>
-		<li><a href="#WhoWeAre">Who We Are</a></div>
-		<li><a href="#OurTeam">Our Team</a></div>
-		<li><a href="#ContactUs">Contact Us</a></div>
-	</ul>
-</nav>
-</header>
 
+  <!-- navigation panel -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Sol Music</a>
+      </div>
 
-<section id="Title">
-	<img src="http://solmusic.sa.utoronto.ca/images/logo.jpg"/>
-	<img src="http://www.utoronto.ca/sites/all/themes/uoftbs3/img/U-of-T-logo.png"/>
-</section>
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Who We Are</a></li>
+          <li><a href="#services">Our Classes</a></li>
+          <li><a href="#information">Volunteer</a></li>
+          <li><a href="#google_map">Contact</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
-<section id="WhoWeAre">
-	<h1>Who We Are</h1>
+  <!-- first section - Home -->
+  <div id="home" class="home">
+    <div class="text-vcenter">
+      <h1>Sol Music</h1>
+      <h3>By Kathy Ge</h3>
+      <!-- <a href="#about" class="btn btn-default btn-lg">Continue</a> -->
+    </div>
+  </div>
+  <!-- /first section -->
 
-	<div id="History">
+  <!-- second section - About -->
+  <div id="about" class="pad-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+        </div>
+        <div class="col-sm-6 text-center">
+          <h2>Sol Music is a non-profit, volunteer-run organization offering weekly music classes to children 6 to 10 years old. </h2>
+          <p class="lead">Currently, we teach the guitar and the keyboard </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /second section -->
 
-		<h2>History</h2>
-		<p>Sol Music was founded in 2010 as a non-profit, volunteer-run organization offering weekly music classes to children 6 to 10 years old. Students taking classes also have the opportunity to perform music arranged for the ensemble. Currently, the instruments taught include the guitar, the keyboard, and the violin.
+  <!-- third section - Our Classes -->
+  <div id="services" class="pad-section">
+    <div class="container">
+      <h2 class="text-center">Our Classes</h2> <hr />
+      <div class="row text-center">
+        <div class="col-sm-3 col-xs-6 col-md-6">
+          <i class="glyphicon glyphicon-music"> </i>
+          <h4>Piano</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+        </div>
+        <div class="col-sm-3 col-xs-6 col-md-6">
+          <i class="glyphicon glyphicon-leaf"> </i>
+          <h4>Guitar</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in sem cras amet. Donec in sem cras amet.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /third section -->
 
-		Sol Music is a recognized campus group based at the University of Toronto Mississauga.</p>
+  <!-- fourth section - Information -->
+  <div id="information" class="pad-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2 class="panel-title">Join Our Team!</h2>
+            </div>
+            <div class="panel-body lead">
+              As Sol Music is run entirely by volunteers, there are many volunteer opportunities available that match different interests and skills. Volunteering at Sol Music involves hands-on work and provides a truly rewarding experience. Whether it is through teaching a class, holding a fundraising event, or launching a marketing campaign, volunteers develop enhanced leadership and interpersonal skills, growing personally and professionally.
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h2 class="panel-title">Opportunities</h2>
+            </div>
+            <div class="panel-body lead">
+              Volunteer opportunities at Sol Music are open to all members of the public. All applicants must commit to at least half a school year (September to December or January to April). Experience is an asset but is not required as long as applicants have a great attitude and are willing to learn. 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /fourth section -->
 
-	</div>
+  <!-- fifth section -->
+  <div id="services" class="pad-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h3>Ryerson Community School</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /fifth section -->
 
-	<div id="Objectives">
+  <!-- google map -->
+  <div id="google_map"></div>
+  <!-- /google map -->
 
-		<h2>Objectives</h2>
+  <!-- footer -->
+  <footer>
+    <hr />
+    <div class="container">
+      <p class="text-right">Sol Music</p>
+    </div>
+  </footer>
+  <!-- /footer -->
 
-		<p> Our objectives are:
-			<ul>
-				<li>to provide children with free music lessons and the opportunity to perform in the Sol Music ensemble</li>
-				<li>to foster self-confidence, creativity, discipline, teamwork, and community leadership in children through music-making</li>
-				<li>to promote the arts within the community</li>
-				<li>to encourage leadership and volunteerism by recruiting young musicians as both teachers and mentors to the children</li>
-			</ul>
-		</p>
-
-	</div>
-
-	<div id="OurTeam">
-
-		<h2>Our Team</h2>
-
-		<p style="font-size:100px"> Snap snap pitchas</p>
-
-	</div>
-
-</section>
-
-<section id="ContactUs">
-	<h1>Contact Us</h1>
-</section>
-
-
+  <!--  JavaScript -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/main.js"></script>
 </body>
-
 </html>
