@@ -12,6 +12,18 @@ html, body {
   width: 100%;
 }
 
+/* navigation bar */
+.navbar {
+  opacity: 0.7;
+  height: 80px;
+}
+
+.navbar-right li {
+  font-size: 16px;
+  font-family: 'Raleway';
+  padding-top: 20px;
+}
+
 /* vertical-centered text */
 .text-vcenter {
   display: table-cell;
@@ -19,7 +31,7 @@ html, body {
   vertical-align: middle;
 }
 .text-vcenter h1 {
-  font-family: "Arvo";
+  font-family: "Rock Salt";
   font-weight: thin;
   text-align: center;
   font-size: 55px;
@@ -28,6 +40,54 @@ html, body {
   font-weight: 700;
   margin: 0;
   padding: 0;
+}
+
+.text-center {
+  font-family: 'Raleway';
+  font-weight: thin;
+}
+
+.text-center h2 {
+  font-weight: 700;
+}
+
+.text-vcenter h3 {
+  font-family: "Raleway";
+  font-weight: thin;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+
+}
+
+.text-right {
+  font-family: 'Raleway';
+  color: white;
+  font-weight: thin;
+
+}
+/* Text style */
+.panel-default {
+  text-align: center;
+
+}
+
+/* img */
+img {
+  max-height: 300%;
+}
+
+.modal {
+  background: None;
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+}
+
+iframe {
+  width: 100%;
 }
 
 /* additional sections */
@@ -48,9 +108,11 @@ html, body {
 }
 
 #services {
-  background-color: #306d9f;
+  background-color: #005CE6;
   color: #ffffff;
 }
+
+
 #services .glyphicon {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
@@ -75,15 +137,18 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
+
 #information .panel {
   opacity: 0.85;
 }
 
 #google_map {
-  height: 500px;
+  height: 350px;
 }
 
-footer {
+footer {  
+  background-color: #005CE6 ;
+  height: 100px;
   padding: 20px 0;
 }
 footer .glyphicon {
