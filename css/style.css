@@ -6,13 +6,12 @@ html, body {
 
 /* padded section */
 .pad-section {
-  padding: 50px 0;
+  padding: 25px 0;
 }
 .pad-section img {
   width: 100%;
 }
 
-/* navigation bar */
 .navbar {
   opacity: 0.7;
   height: 80px;
@@ -22,6 +21,10 @@ html, body {
   font-size: 16px;
   font-family: 'Raleway';
   padding-top: 20px;
+}
+
+.panel h1 {
+  font-family: 'Raleway';
 }
 
 /* vertical-centered text */
@@ -68,6 +71,21 @@ html, body {
   font-weight: thin;
 
 }
+
+footer .text-center p {
+  color: white;
+}
+
+footer .text-center a {
+  color: #B2CEF8;
+  text-decoration: none;
+}
+
+footer .text-center a:hover {
+  text-decoration: none;
+  color: #001C3B;
+}
+
 /* Text style */
 .panel-default {
   text-align: center;
@@ -92,7 +110,7 @@ iframe {
 
 /* additional sections */
 #home {
-  background: url(../img/slide1_op.png) no-repeat center center fixed; 
+  background: url(../img/sam60.jpg) no-repeat center center fixed; 
   opacity: 0,6;
   display: table;
   height: 100%;
@@ -105,11 +123,13 @@ iframe {
 }
 
 #about {
+  position: relative;
 }
 
 #services {
-  background-color: #005CE6;
+  background-color: #057BAC;
   color: #ffffff;
+  position: relative;
 }
 
 
@@ -123,13 +143,14 @@ iframe {
   text-align: center;
   vertical-align: middle;
   width: 140px;
+  position: relative;
 }
 
 #information {
   background: url(../img/slide3_op.png) no-repeat center center fixed; 
   display: table;
-  height: 800px;
-
+  height: 400px;
+  padding-top: 50px;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -140,15 +161,17 @@ iframe {
 
 #information .panel {
   opacity: 0.85;
+  position: relative;
 }
 
 #google_map {
-  height: 350px;
+  height: 400px;
+  pointer-events: none;
+  position: relative;
 }
 
 footer {  
-  background-color: #005CE6 ;
-  height: 100px;
+  background-color: #057BAC ;
   padding: 20px 0;
 }
 footer .glyphicon {

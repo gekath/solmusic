@@ -22,6 +22,8 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
+  <link rel="shortcut icon" href="img/tab_icon.ico"
+
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   
@@ -40,7 +42,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#"><img src='img/3_v1.png'></a>
+        <a class="navbar-brand" href="#"><img src='img/3_v1copy.png'></a>
       </div>
 
       <div class="collapse navbar-collapse" id="navbar-collapse-main">
@@ -58,9 +60,12 @@
   <!-- first section - Home -->
   <div id="home" class="home">
     <div class="text-vcenter">
-      <h1>Sol Music</h1>
+      <!-- <h1>Sol Music</h1> -->
+      
+      <img src="img/3_v1.png"/>
       <h3>Connecting our community through free and accessible music education.</h3>
       <!-- <a href="#about" class="btn btn-default btn-lg">Continue</a> -->
+      <br><button type="button" class="btn btn-default" data-toggle="modal" data-target="#registerModal">Registration Now Open!</button>
     </div>
   </div>
   <!-- /first section -->
@@ -89,7 +94,7 @@
         <div class="col-sm-3 col-xs-6 col-md-6">
           <i class="glyphicon glyphicon-music"> </i>
           <h2>Join Our Team!</h2>                  
-          <button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Volunteer</button>
+          <button type="button" class="btn btn-default" data-toggle="modal" data-target="#volunteerModal">Volunteer</button>
         </div>
         <div class="col-sm-3 col-xs-6 col-md-6">
           <i class="glyphicon glyphicon-gift"> </i>
@@ -107,17 +112,24 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="panel panel-default">
-              <h2 class="panel-title">Info Block</h2>
+            <h1 class="text-center">
+              Classes
+            </h1>
             <div class="panel-body lead">
-                <div class="col-md-4 text-center"> 
-                </div>
+                  <p>Classes take place every Friday from 3:30-4:45 PM at Ryerson Community School. Sol Music operates in accordance with the Toronto School Board (TDSB) School Year Calendar, from September to June. There are no lessons on TDSB approved holidays and PA days.</p>
+
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#registerModal">Registration Now Open!</button>
             </div>
           </div>
         </div>
         <div class="col-sm-6">
           <div class="panel panel-default">
-              <h2 class="panel-title">Info Block</h2>
+            <h1 class="text-center">
+              Curriculum
+            </h1>
             <div class="panel-body lead">
+              <p>Sol Music class sizes range from 2-4 students of a comparable music level and age group. Practical and theoretical resources are available for teachers to use, but we also encourage teachers to create and implement their own curriculum based on their students’ needs.</p>
+              <br>
             </div>
           </div>
         </div>
@@ -138,16 +150,35 @@
   </div>
   <!-- /fifth section -->
 
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="volunteerModal" role="dialog">
     <div class="modal-dialog modal-lg">
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
+          <h4 class="modal-title">Volunteer Application Form</h4>
         </div>
         <div class="modal-body">
-          <iframe src="https://docs.google.com/forms/d/1f7LxMhbVHMS3tL-WeaXMH_hQPhZu5ahp0s_a1kPTYGw/viewform?embedded=true" width='100%' height='350px' frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          <iframe src="https://docs.google.com/forms/d/1otrei2Z94bRvv2H9yJGx9e0p6h9UwCk8MCSu1Zyuc9g/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="registerModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Registration Form</h4>
+        </div>
+        <div class="modal-body">
+            <!-- NEW GOOGLE FORM -->
+            Coming Soon
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -163,13 +194,17 @@
   <!-- footer -->
 
   <footer>
-    <div class="container">
-      <div class='row'>
-        <div class='col-sm-6 text-center'>
-          <a href='solmusicuoft@gmail.com'>Contact Us</a>
-        </div>
-        <div class='col-sm-6'>
-          <h4 class='text-right'>Sol Music</h4>
+    <div class="pad-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <p>
+              Ryerson Community School
+              <br>96 Denison Avenue, Toronto, ON M5T 1E4
+              <br>(647) 268-0246
+              <br><a href="mailto:solmusicuoft@gmail.com">solmusicuoft@gmail.com</a>
+            </p>
+          </div>
         </div>
       </div>
     </div>
